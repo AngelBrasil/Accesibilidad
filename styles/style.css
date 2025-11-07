@@ -137,7 +137,7 @@ body{
             &:hover {
                 background-color: rgb(149, 203, 48);
                 color: #151515ad;
-                }
+            }
         }
     }
 }
@@ -146,6 +146,13 @@ body{
     display: flex;
     align-items: center;
     gap: 20px;
+    box-shadow: 8px 4px 8px rgb(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.25s ease;
+    background-color: #e9e4e436;
+    &:hover{
+        transform: translate(-5px);
+    } 
     img{
         width:90px;
         height:150px;
