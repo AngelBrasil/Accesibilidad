@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>EBAC accesibilidad</title>
+</head>
+<body>
+    <head>
+        <h1 class="header-title">Cursos de programación</h1>
+        <ul aria-label="Navegacion del sitio" role="navigation" class="header-nav">
+            <li><a href="index.html" lang="en" aria-label="Ir a seccion de inicio">Home</a></li>
+            <li><a href="about_us.html" aria-label="Ir a la seccion de acerca De">Acerca de</a></li>
+            <li><a href="contact.html" aria-label="Ir a la seccion de contacto">Contacto</a></li>
+        </ul>
+    </head>
+    <main>
+        <article role="banner">
+            <h2 class="title-banner">Cursos</h2> 
+            <section class="list-course" aria-label="Listado de cursor disponibles" role="contentinfo">
+                <section aria-labelledby="fullStackJava" class="course">
+                    <h3 id="fullStackJava" class="title-course">Full Stack Java</h3>
+                    <section class="course-info">
+                        <img src="/img/Java-Logo.png" alt="imagen curso full stack java" width="100" height="100">
+                        <p>Conviértete en un programador capaz de impulsar todas las fases del desarrollo de software, sitios web y apps. Desarrolla desde la interfaz hasta las estructuras internas y las bases de datos. Aprende a programar soluciones complejas e innovadoras con Java y haz crecer tu carrera.</p>
+                    </section>
+                    <button role="button" aria-label="Mostrar mas informacion acerca del curso" class="btn-inf">Más informacion</button>
+                </section>
+                <section aria-labelledby="fullStackPython" class="course">
+                    <h3 id="fullStackPython" class="title-course">Full Stack Python</h3>
+                    <section class="course-info">
+                        <img src="/img/python-logo.png" alt="imagen curso full stack python" width="100" height="100">
+                        <p>prende a programar sitios web y apps de principio a fin con el increíble ecosistema de Python. Descubre cómo desarrollar desde la interfaz hasta las estructuras internas o las bases de datos y al finalizar el curso estarás listo para dar el salto profesional.</p>
+                    </section>
+                    <button role="button" aria-label="Mostrar mas informacion acerca del curso" class="btn-inf">Mas informacion</button>
+                </section>
+                <section aria-labelledby="scientistData" class="course">
+                    <h3 id="scientistData" class="title-course">Cientifico de datos</h3>
+                    <section class="course-info">
+                        <img src="/img/data.png" alt="imagen curso cientifico de datos"  width="100" height="100">
+                        <p>Aprende a construir modelos estadísticos y a potenciar la estrategia comercial basada en algoritmos de machine learning y big data. Crea tus primeros proyectos y empieza tu carrera como científico de datos.</p>
+                    </section>
+                    <button role="button" aria-label="Mostrar mas informacion acerca del curso" class="btn-inf">Mas informacion</button>
+                </section>
+                <section aria-labelledby="ia" class="course">
+                    <h3 id="ia" class="title-course">Inteligencia artificial para negocios</h3>
+                    <section class="course-info">
+                        <img src="/img/ia.jpg" alt="imagen curso inteligencia artifial para negocios"  width="100" height="100">
+                        <p>¡Convierte la IA en tu aliada! Este curso está diseñado para enseñarte a agilizar tu productividad y tomar mejores decisiones basadas en datos, mejorar tus habilidades comerciales y llevar la gestión de tareas al siguiente nivel.</p>
+                    </section>
+                    <button role="button" aria-label="Mostrar mas informacion acerca del curso" class="btn-inf">Mas informacion</button>
+                </section>
+            </section>
+        </article>
+
+        <article role="complementary">
+            <h2 class="title-webinar">Webinars</h2>
+            <section class="webinar-container" aria-label="Listado de webinars disponibles">
+                <section class="webinar-detail">
+                    <img src="img/uiux.png" alt="Imagen estrategias ux / ui para el exito en E-Commerce">
+                    <p>Conecta, diseña  y vende estrategias ux / ui para el exito en E-Commerce</p>
+                </section>
+                <section class="webinar-detail">
+                    <img src="img/jugadorcreador.png" alt="Imagen de jugador a creador">
+                    <p>De jugador a creador: construye experiencias inmersas</p>
+                </section>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>Derechos reservados</p>
+    </footer>
+</body>
+</html>

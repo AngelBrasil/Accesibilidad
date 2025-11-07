@@ -1,0 +1,158 @@
+body{
+    margin: 0 auto;
+    background-color: #f0f8ff;
+}
+.header-title{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(79, 88, 191);
+    color: #fff;
+}
+.header-nav{
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+    li{
+        padding: 20px;
+        margin: 0;
+        background-color: rgb(145, 208, 247);
+        box-sizing: border-box;
+        a{
+            text-decoration: none;
+            color: #1e1e1e;
+        }
+    }
+}
+
+.title-banner{
+    text-align: center;
+    background-color: #fffd0080;
+    color: #1b1b1a;
+    padding: 15px;
+}
+
+.list-course{
+    display: flex;
+    gap: 5px;
+}
+
+.course{
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 8px 4px 8px rgb(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.25s ease;
+    background-color: #e9e4e436;
+    &:hover{
+        transform: translate(-5px);
+    }
+}
+
+.title-course{
+    text-align: center;
+}
+
+.course-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-inf{
+    background-color: rgba(245, 245, 220, 0.822);
+    color: #1b1b1a;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.title-webinar{
+    text-align: center;
+    background-color: #fffd0080;
+    color: #1b1b1a;
+    padding: 15px;
+}
+
+.webinar-container{
+    display: flex;
+    padding: 10px;
+}
+
+.webinar-detail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 8px 4px 8px rgb(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.25s ease;
+    background-color: #e9e4e436;
+    &:hover{
+        transform: translate(-5px);
+    }
+    img{
+        width: 40%;
+    }
+}
+
+.title-form{
+    text-align: center;
+    background-color: #fffd0080;
+    color: #1b1b1a;
+    padding: 15px
+}
+
+.container-contact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    section{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        box-sizing: border-box;
+
+        label{
+            color:#333;
+            font-size: 25px;
+        }
+        input{
+            box-sizing: border-box;
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #000;
+            outline: none;
+            cursor: pointer;
+        }
+        button{
+            color: #fff;
+            background-color: #aad164;
+            border: none;
+            padding: 15px;
+            font-size: 20px;
+            cursor: pointer;
+            &:hover {
+                background-color: rgb(149, 203, 48);
+                color: #151515ad;
+                }
+        }
+    }
+}
+
+.about-us{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    img{
+        width:90px;
+        height:150px;
+        flex-basis: 1;
+    }
+    p{
+        font-size: 25px;
+        flex-basis: 2;
+    }
+}
